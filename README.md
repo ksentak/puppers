@@ -6,7 +6,7 @@ Dog breeds and sub-breeds are obtained and listed on the site using the DOG CEO 
 
 #### Deployed Application:
 
-ksentak.github.io/puppers/
+https://ksentak.github.io/puppers/
 
 ---
 
