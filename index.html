@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Puppers Pics</title>
+
+		<!-- Google fonts -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<!-- Custom CSS -->
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+
+	<body>
+		<div class="site-title jumbotron p-4 text-center text-white">
+			<h1>Welcome to the Puppers Website! 🐶</h1>
+			<p>
+				Click on your favorite breed and 3 random images will be genereated and displayed
+				of the selected breed at the bottom of the page.
+			</p>
+		</div>
+
+		<div class="row text-center breedsBtns" id="breedsbuttons"></div>
+
+		<div class="row text-center breedsDiv" id="picsHere"></div>
+
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- Javascript -->
+		<script src="app.js"></script>
+	</body>
+</html>

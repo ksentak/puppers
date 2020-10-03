@@ -1,0 +1,54 @@
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #383838;
+	padding: 5px;
+}
+
+.site-title {
+	background-color: #383838;
+	margin-bottom: -20px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.breedsBtns {
+	padding-left: 50px;
+}
+
+.btn-div {
+	margin: 5px 0;
+}
+
+.breedBtn {
+	color: #383838;
+	background-color: white;
+	border: 1px solid black;
+	padding: 5px 3px;
+	text-align: center;
+}
+
+.breedBtn:hover {
+	text-decoration: underline;
+	background-color: #c5ced4;
+}
+
+.breedsDiv {
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.pupperImg {
+	height: 300px;
+	width: 90%;
+	border-radius: 10px;
+	margin: 10px 0;
+}
+
+@media screen and (max-width: 1130px) and (min-width: 900px) {
+	/* .breedBtn {
+		font-size: 12px;
+	} */
+
+	.breedsBtns {
+		padding-left: 10px;
+	}
+}
